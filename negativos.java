@@ -20,12 +20,18 @@ public class negativos {
          }
          System.out.println("números negativos : ");
 
+         boolean temNegativo = false;
          for(int i = 0; i < n; i++){
             if (vet[i] < 0) {
                 System.out.print(vet[i] + " " ) ;
+                temNegativo = true;
             }
             
          } 
+         if (!temNegativo) {
+            System.out.println("Nenhum número negativo foi digitado!");
+            
+         }
 
          sc.close();
     }
