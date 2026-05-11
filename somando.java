@@ -34,7 +34,7 @@ public class somando {
         System.out.println("A soma dos números é " + soma );
         System.out.println("A média da soma dos números é  " + media); 
 
-        sc.close();
+        sc.close();                                        
 
     }
 }
