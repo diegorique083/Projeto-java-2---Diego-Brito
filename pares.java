@@ -35,6 +35,8 @@ public class pares {
 
         System.out.println();
 
-        System.out.print(" A qantidade de números pares é: " + quantPar);
+        System.out.print(" A qantidade de números pares é: " + quantPar); 
+
+        sc.close();
     }
 }

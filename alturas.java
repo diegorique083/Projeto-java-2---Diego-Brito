@@ -76,16 +76,7 @@ public class alturas {
             }
 
         }
-
-
-
-
-
-
-
-        
-        
-
+        sc.close();
     } 
 
  }
