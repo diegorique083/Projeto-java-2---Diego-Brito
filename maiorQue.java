@@ -24,15 +24,16 @@ public class maiorQue{
         double maior = 0;
         double maiorValor = 0;
 
-        for(int i = 1; i < n; i++){
+        for(int i = 0; i < n; i++){
             if (vet[i] > maior) {
                 maior = vet[i];
-                maiorValor = i;
+                maiorValor = i+1;
                 
             } 
         }
         
-        System.out.println("O maior valor é: " + maior);
+        System.out.printf("O maior valor é : %.2f " , maior);
+        System.out.println();
         System.out.println("Na posição " + maiorValor); 
 
         sc.close();
